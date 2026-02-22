@@ -1,0 +1,39 @@
+{
+  "functions": [
+    {
+      "id": "FPC_MOISTURE_MODEL",
+      "name": "Moisture Model",
+      "description": "Calcola moisture e bound water del blend di farine.",
+      "parameters": [],
+      "result": { "type": "matrix" }
+    },
+    {
+      "id": "FPC_EGG_SOLVER",
+      "name": "Egg Solver",
+      "description": "Calcola acqua totale, uova, acqua aggiuntiva e proteine finali.",
+      "parameters": [],
+      "result": { "type": "matrix" }
+    },
+    {
+      "id": "FPC_OPTIMIZATION",
+      "name": "Optimization",
+      "description": "Calcola WMin, PLOpt, proteinMin, ashMax, oilOpt, saltOpt, maltOpt.",
+      "parameters": [],
+      "result": { "type": "matrix" }
+    },
+    {
+      "id": "FPC_LAMINATION",
+      "name": "Lamination Model",
+      "description": "Calcola rest time, lamination type, fold type e passes.",
+      "parameters": [],
+      "result": { "type": "matrix" }
+    },
+    {
+      "id": "FPC_COOKING",
+      "name": "Cooking Model",
+      "description": "Calcola cook time e cook salt ratio.",
+      "parameters": [],
+      "result": { "type": "matrix" }
+    }
+  ]
+}
